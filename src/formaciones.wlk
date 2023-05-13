@@ -37,4 +37,7 @@ class Formacion	 {
 		not self.vagonesDePasajeros().isEmpty() and 
 		self.vagonConMasPasajeros().capacidadPasajeros() - self.vagonConMenosPasajeros().capacidadPasajeros() <= 20
 	}
+	method estaOrganizada(){
+		
+	}
 }
